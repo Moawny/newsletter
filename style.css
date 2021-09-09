@@ -1,0 +1,98 @@
+:root {
+  --yel: #ebe81c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.first_section {
+  padding: 10px 0 15px;
+  background-color: #ebe81c;
+}
+section.first_section h1 {
+  font-weight: 900;
+  font-size: 3em;
+}
+section.first_section p {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+section.strip {
+  color: #fff;
+  background-color: #000;
+  padding: 7px 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+section.date {
+  background-color: #fff;
+  padding: 20px 0;
+}
+section.date h2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+section.date h3 {
+  font-size: 2em;
+  font-weight: 900;
+}
+section.date hr {
+  margin: 10px auto 20px;
+  width: 25px;
+  border-top: 5px solid #000;
+}
+section.date p {
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
+section.summer img {
+  width: 100%;
+  display: block;
+}
+
+section.strip_2 {
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  font-size: 2em;
+  padding: 7px 0 4px;
+}
+
+section.percent {
+  background-color: #000;
+  padding: 10px;
+  color: var(--yel);
+}
+section.percent h2 {
+  font-size: 5em;
+  font-weight: 400;
+}
+section.percent h3 {
+  font-size: 3em;
+  font-weight: 400;
+}
+section.percent p {
+  margin: 20px 0 0;
+  color: #eee;
+  font-size: 1.4em;
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
